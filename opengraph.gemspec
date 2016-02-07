@@ -54,7 +54,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<webmock>, [">= 0"])
     else
       s.add_dependency(%q<hashie>, [">= 0"])
-      s.add_dependency(%q<nokogiri>, ["~> 1.4.0"])
+      s.add_dependency(%q<nokogiri>, ["~> 1.5.9"])
       s.add_dependency(%q<rest-client>, ["~> 1.6.0"])
       s.add_dependency(%q<rspec>, [">= 2.0.0"])
       s.add_dependency(%q<webmock>, [">= 0"])
